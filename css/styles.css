@@ -322,6 +322,9 @@ img {
 }
 /*suggestion page*/
 
+#thank-you {
+    text-align: center;
+}
 .frm {
     text-align: left;
     margin-left: 50px
