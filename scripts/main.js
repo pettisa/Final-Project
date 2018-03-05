@@ -1,11 +1,11 @@
 //prevent default on link
-var hereButton = ('here')
-hereButton.click.(function(event){
+//var hereButton = ('here')
+//hereButton.click.(function(event){
 //prevent link refreshing the page
-	event.preventDefault();
+	//event.preventDefault();
 //show message
-	alert("This link has been clicked but it doesn't go anywhere");
-}
+	//alert("This link has been clicked but it doesn't go anywhere");
+//}
 
 //main navigation
 
