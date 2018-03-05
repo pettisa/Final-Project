@@ -1,6 +1,6 @@
 //prevent default on link
-
-$('.here').click.(function(event){
+var hereButton = ('here')
+hereButton.click.(function(event){
 //prevent link refreshing the page
 	event.preventDefault();
 //show message
