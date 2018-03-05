@@ -90,7 +90,7 @@ p {
 /*Home page*/
 
 header {
-    border: 5px solid #808486;
+    border: 3px solid #808486;
     background-color: #0C78B2;
     /*height: 100px;*/
 }
@@ -271,7 +271,7 @@ span.ham {
 }
 
 footer {
-    border: 5px solid #808486;
+    border: 3px solid #808486;
     background-color: #0C78B2;
     margin: auto;
     text-align: center;
