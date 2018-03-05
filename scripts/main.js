@@ -1,21 +1,21 @@
 //main navigation
 
-var navButton = document.querySelector('.nav-btn')
+//var navButton = document.querySelector('.nav-btn')
 //when users click on nav button
 //Add active class to indicate the page is accessed
-navButton.onclick = function () {
+//navButton.onclick = function () {
   //check the navigation button class for active
-  var pageOpen = navButton.classList.contains('active');
+  //var pageOpen = navButton.classList.contains('active');
   //if it is the opposite add the class active
-  if(!pageOpen) {
-    navButton.classList.add('active');
+  //if(!pageOpen) {
+    //navButton.classList.add('active');
 
-  }
+  //}
   //if the class is active remove active
-  else {
-    navButton.classList.remove('active');
-  }
-};
+  //else {
+    //navButton.classList.remove('active');
+  //}
+//}
 
 //hamburger menu
 

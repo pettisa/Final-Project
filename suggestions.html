@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Arima+Madurai:400,800|Open+Sans" rel="stylesheet">
 </head>
-<body>
+<body class="gen-page">
 	<header class= "clear">
 		<h1 class="co-name font-a">Fan-City Book Club</h1>
 		<nav class="main-nav font-b">
@@ -48,10 +48,31 @@
 	</header>
 	<!--End or Header with main nav menue-->
 
-	<div class="paper clear">
+	<div class="font-b clear">
 		<div class="overlay">
 			Thank you for visiting the site. Your suggestions are appreciated. Please email us.
 		</div>
+	</div>
+	<div class="font-b">
+	<form>
+		<div>
+		<label for="name">Name</label>
+		<input id="name" type="text" name="name">
+		</div>
+		<div>
+		<label for="email">Email</label>
+		<input id="email" type="email" name="email" required>
+		</div>
+		<div>
+		<label for="comments">Suggestions</label>
+		</div>
+		<div>
+		<textarea type="textarea" name="comments" rows="15" cols="100" required></textarea>
+		</div>
+		<div>
+		<input type="submit" name="submit" value="Submit">
+		</div>
+	</form>
 	</div>
 	<footer class="fan-info">
 			<h2>Fan-City Book Club</h2>
