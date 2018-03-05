@@ -322,9 +322,17 @@ img {
 }
 /*suggestion page*/
 
+
+#wrapper {
+    padding-bottom: 350px;
+}
+
+
 #thank-you {
     text-align: center;
 }
+
+
 .frm {
     text-align: left;
     margin-left: 100px;
