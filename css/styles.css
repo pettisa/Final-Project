@@ -100,11 +100,23 @@ header {
 }
 
 @keyframes bounce {
-
+    0%{
+        font-size: 14px;
+    }
+    50% {
+        font-size: 25px;
+    }
+    100% {
+        font-size: 50px;
+    }
 }
 
 .co-name {
     display: inline-block;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
 }
 
 .main-nav {
