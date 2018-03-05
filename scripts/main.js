@@ -1,3 +1,12 @@
+//prevent default on link
+
+$('.here').click.(function(event){
+//prevent link refreshing the page
+	event.preventDefault();
+//show message
+	alert("This link has been clicked but it doesn't go anywhere");
+}
+
 //main navigation
 
 //var navButton = document.querySelector('.nav-btn')
